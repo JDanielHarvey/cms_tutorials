@@ -36,26 +36,26 @@ calls_data = '''{
 	"pages": 1
 }'''
 
-# json_data = json.loads(calls_data)
-# json_calls = json.loads(calls_data)
+json_data = json.loads(calls_data)
+json_calls = json.loads(calls_data)
 
-# print(type(calls_data))
-# print()
-# print(type(json_data))
-# print()
-# print(json_data)
-# print()
-# print(type(json_data['calls']))
-# print()
+print(type(calls_data))
+print()
+print(type(json_data))
+print()
+print(json_data)
+print()
+print(type(json_data['calls']))
+print()
 
-# for call in json_calls['calls']:
-# 	del call['email']
-# 	print(call)
+for call in json_calls['calls']:
+	del call['email']
+	print(call)
 
-# print()
-# calls_data_mod = json.dumps(json_calls, indent = 2, sort_keys=True)
+print()
+calls_data_mod = json.dumps(json_calls, indent = 2, sort_keys=True)
 
-# print(calls_dad)
+print(calls_dad)
 
 
 
